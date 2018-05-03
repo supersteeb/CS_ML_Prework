@@ -4,7 +4,7 @@
 According to this data, **the body part most closely related to adiposity** is the **abdomen**. To put another way, the best thing to measure to find out how fat one is — that is, how indicative it is of one's "fatness" — is a person's abdomen.
 
 ## QUESTION 2: ANSWER
-### The characteristic as it relates to adiposity that changes most between people under 45 and people age 45 and over is:
+##### The characteristic as it relates to adiposity that changes most between people under 45 and people age 45 and over is:
 **Knee** with a value of: 0.10830842534469676
 
 ## Bonus: 
