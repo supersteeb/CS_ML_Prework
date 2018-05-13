@@ -4,18 +4,11 @@
 Used 1075 country & 1075 rap
 
 #Confusion Matrix:
-        |   c     |
-        |   o     |
-        |   u     |
-        |   n     |
-        |   t   r |
-        |   r   a |
-        |   y   p |
---------+---------+
-country |<285> 36 |
-rap     |  30<294>|
---------+---------+
-(row = reference; col = test)
+Actual country / Predicted country (True Negatives?) = 285
+True positives rap = 294
+Actual country / predicted rap = 36
+actual rap / predicted country = 30
+
 
 ## Cross Validation
 a mean cross validation score of 91.3%
