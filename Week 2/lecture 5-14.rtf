@@ -1,0 +1,107 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 5/14\
+\
+adding dimensions (b/c of features \'97\'a0when get_dummies) makes figuring out distance more expensive\
+\
+feature - useful numbers (represented as vectors) that tell you something about something\
+\
+classification - taking unknown data and putting it in class/category\
+\
+supervised learning - training computer knowing expected outcome\
+\
+kNN - predict an unknown data point by its majority k-closest points \
+\
+cross validation - trying to be as random as possible. model will give you results based on data you test it with. makes sure your model is good independent of the data you select, trying all different types of combinations of data. \
+\
+precision - predicted said yes and correct divided by whole \
+\
+recall - TP / (TP + FN => total actual # of people with cancer)\
+\
+want to use precision and recall as opposed to overall \'93accuracy\'94 \
+\
+two ways to figure out if your model is good or bad. \
+\
+\
+
+\b Linear & Logistic Regression\
+\
+Support Vector Machines\
+\
+Decision Trees & Random Forests\
+
+\b0 \
+Model Improvement\
+- Variance & Bias - general theory of what you want your model to be like\
+- Parameter Optimization - what parameters you should choose for your model\
+- Feature Selection - what features should I choose? \
+\
+kNN: Prose\
+- simple (given how simple, quite robust \'97\'a0applicable to many different scenarios)\
+- flexible\
+- expandable\
+\
+Cons: more features, slower it gets\
+- lazy learning - very dependent on data you give it. not intelligent until give it new data to test\
+- normalization - has to make sure values of data in similar range (because it\'92s distance calculation)\
+- computationally expensive - has to work hard\
+- curse of dimensionality - more dimensions you have, more data you have to give it. more calculations in memory\
+\
+
+\b Linear & Logistic Regression
+\b0 \
+Linear regression - line of best fit with all the data\
+logistic regression gives probability\
+	use it for classification even though mathematically it\'92s not\
+\
+SVM - line separating data / classifying data by maximizing distance from either points w/ line of best separation. \
+\
+\
+\pard\pardeftab720\sl340\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\b \cf0 Decision Trees & Random Forests\
+
+\b0 Give 20 movies. 20 movies you like and 20 you don\'92t like. (supervised learning). \
+asks questions based on features. \
+\
+3 ways to introduce randomness\
+- give different decision tree different set of data points\
+\
+randomizing features & data (questions & answers) \
+\
+\
+
+\b MODEL IMPROVEMENT\
+\
+
+\b0 Bias vs Variance\
+to have too much bias - model\'92s too simple. not fitting data very well / underfitting data. \
+too much variance - too complex. overfitting model. \
+\
+Parameter Selection. \
+\
+2 ways in assignment. \
+\
+GridSearchCV\
+\
+
+\b Feature Selection
+\b0 \
+Univariate Selection \
+- SelectKBest\
+
+\b \
+Feature Importance
+\b0 \
+- Recursive Feature Elimination\
+- SelectFromModel\
+\
+\
+}
