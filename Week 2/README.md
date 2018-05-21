@@ -1,4 +1,4 @@
-# CS ML Maymester'18 PREWORK
+# CS ML Maymester'18 Week 2 Assignment
 
 ## Objective
 Comparing contrast original classifier with given params to "best version" - with the best params - then to the "optimized" version - with the best params and the best features. Then compare & contrast the results between the three. 
